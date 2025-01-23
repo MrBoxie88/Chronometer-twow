@@ -35,14 +35,17 @@ function Chronometer:DruidSetup()
 	self:AddTimer(self.SPELL, BS["Rip"],                   12, 1,0,0, { rc=true })
 	self:AddTimer(self.SPELL, BS["Soothe Animal"],         15, 1,0,0, { rc=true })
 	self:AddTimer(self.SPELL, BS["Starfire"],               0, 1,0,0, { ea={[BS["Starfire Stun"]]=1} })
-	self:AddTimer(self.SPELL, BS["Tiger's Fury"],           6, 0,1,1, { rc=true, d={tn=BS["Blood Frenzy"], tb=3}  }) -- turtle WOW
+	self:AddTimer(self.SPELL, BS["Tiger's Fury"],           12, 0,1,1, { rc=true, d={tn=BS["Blood Frenzy"], tb=3}  }) -- turtle WOW
 
 	self:AddTimer(self.EVENT, BS["Entangling Roots"],      12, 1,0,1, { gr=1, d={rs=3}, a=1 })
 	self:AddTimer(self.EVENT, BS["Nature's Grace"],        15, 0,1,1, { cr="GREEN", a=1 })
-
+	self:AddTimer(self.EVENT, BS["Arcane Eclipse"],        15, 0,1,1, { cr="GREEN", a=1 })
 	self:AddTimer(self.EVENT, BS["Clearcasting"],          15, 0,1,1, { cr="GREEN", a=1 })
+	self:AddTimer(self.EVENT, BS["Nature Eclipse"],        15, 0,1,1, { cr="GREEN", a=1 })
 	self:AddTimer(self.EVENT, BS["Pounce Bleed"],          18, 1,0,0, { xn=BS["Pounce"] })
 	self:AddTimer(self.EVENT, BS["Starfire Stun"],          3, 1,0,0, { xn=BS["Starfire"] })
+	self:AddTimer(self.EVENT, BS["Arcane Solstice"],       30, 0,1,1 )
+	self:AddTimer(self.EVENT, BS["Nature Solstice"],       30, 0,1,1 )
 	self:AddTimer(self.EVENT, BS["Blood Frenzy"],          0, 0,1,1, { d={tn=BS["Blood Frenzy"], tb=6}, a=1 }) -- turtle WOW
 end
 

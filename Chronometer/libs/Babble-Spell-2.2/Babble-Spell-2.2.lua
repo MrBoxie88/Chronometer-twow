@@ -1,3 +1,4 @@
+---@diagnostic disable: undefined-global
 --[[
 	Name: Babble-Spell-2.2
 	Revision: $Rev: 25188 $
@@ -59,6 +60,7 @@ BabbleSpell:RegisterTranslations("enUS", function()
 		["Arcane Bolt"] = true,
 		["Arcane Brilliance"] = true,
 		["Arcane Concentration"] = true,
+		["Arcane Eclipse"] = true,
 		["Arcane Explosion"] = true,
 		["Arcane Focus"] = true,
 		["Arcane Instability"] = true,
@@ -70,6 +72,7 @@ BabbleSpell:RegisterTranslations("enUS", function()
 		["Arcane Power"] = true,
 		["Arcane Resistance"] = true,
 		["Arcane Shot"] = true,
+		["Arcane Solstice"] = true,
 		["Arcane Subtlety"] = true,
 		["Arcane Weakness"] = true,
 		["Arcing Smash"] = true,
@@ -968,8 +971,10 @@ BabbleSpell:RegisterTranslations("enUS", function()
 		["Natural Shapeshifter"] = true,
 		["Natural Weapons"] = true,
 		["Nature Aligned"] = true,
+		["Nature Eclipse"] = true,
 		["Nature Resistance Totem"] = true,
 		["Nature Resistance"] = true,
+		["Nature Solstice"] = true,
 		["Nature Weakness"] = true,
 		["Nature's Focus"] = true,
 		["Nature's Grace"] = true,
@@ -992,6 +997,7 @@ BabbleSpell:RegisterTranslations("enUS", function()
 		["Opportunity"] = true,
 		["Overpower"] = true,
 		["Pacify"] = true,
+		["Pain Spike"] = true,
 		["Pain Suppression"] = true,
 		["Paralyzing Poison"] = true,
 		["Paranoia"] = true,
@@ -3052,7 +3058,7 @@ BabbleSpell:RegisterTranslations("deDE", function()
 		["Challenging Roar"] = "Herausforderndes Gebr\195\188ll",
 		["Challenging Shout"] = "Herausforderungsruf",
 		["Charge Rage Bonus Effect"] = "Wut-Aufladung-Bonus-Effekt",
-		["Charge Stun"] = "Sturmangriff \(Bet\195\164ubung\)",
+		["Charge Stun"] = "Sturmangriff Bet\195\164ubung",
 		["Charge"] = "Sturmangriff",
 		["Cheap Shot"] = "Fieser Trick",
 		["Chilled"] = "K\195\164lte",
