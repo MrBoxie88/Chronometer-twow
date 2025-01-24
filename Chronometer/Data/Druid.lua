@@ -23,11 +23,11 @@ function Chronometer:DruidSetup()
 	self:AddTimer(self.SPELL, BS["Faerie Fire (Feral)"],     40, 1,0,0, { gr=2, rc=true })
 	self:AddTimer(self.SPELL, BS["Feral Charge"],           4, 1,0,0)
 	self:AddTimer(self.SPELL, BS["Frenzied Regeneration"], 10, 0,1,1)
-	self:AddTimer(self.SPELL, BS["Hibernate"],             20, 1,0,0, { gr=3, rc=true, d={rs=10}  })
+	self:AddTimer(self.SPELL, BS["Hibernate"],             40, 1,0,0, { gr=3, rc=true, d={rs=10}  }) -- turtle WOW - Updated timer
 	self:AddTimer(self.SPELL, BS["Innervate"],             20, 1,1,1)
-	self:AddTimer(self.SPELL, BS["Insect Swarm"],          12, 1,0,0, { rc=true })
+	self:AddTimer(self.SPELL, BS["Insect Swarm"],          18, 1,0,0, { rc=true }) -- turtle WOW - Updated timer
 	self:AddTimer(self.SPELL, BS["Nature's Grasp"],        45, 0,1,1, { cr="BLUE", ea={[BS["Entangling Roots"]]=45} })
-	self:AddTimer(self.SPELL, BS["Moonfire"],              12, 1,0,0, { rc=true })
+	self:AddTimer(self.SPELL, BS["Moonfire"],              18, 1,0,0, { rc=true }) -- turtle WOW - Updated timer
 	self:AddTimer(self.SPELL, BS["Pounce"],                 2, 1,0,0, { ea={[BS["Pounce Bleed"]]=1} })
 	self:AddTimer(self.SPELL, BS["Rake"],                   9, 1,0,0, { rc=true })
 	self:AddTimer(self.SPELL, BS["Regrowth"],              21, 1,1,1, { rc=true, mc=BS["Swiftmend"] })
@@ -39,13 +39,13 @@ function Chronometer:DruidSetup()
 
 	self:AddTimer(self.EVENT, BS["Entangling Roots"],      12, 1,0,1, { gr=1, d={rs=3}, a=1 })
 	self:AddTimer(self.EVENT, BS["Nature's Grace"],        15, 0,1,1, { cr="GREEN", a=1 })
-	self:AddTimer(self.EVENT, BS["Arcane Eclipse"],        15, 0,1,1, { cr="GREEN", a=1 })
+	self:AddTimer(self.EVENT, BS["Arcane Eclipse"],        15, 0,1,1, { cr="GREEN", a=1 }) -- turtle WOW
 	self:AddTimer(self.EVENT, BS["Clearcasting"],          15, 0,1,1, { cr="GREEN", a=1 })
-	self:AddTimer(self.EVENT, BS["Nature Eclipse"],        15, 0,1,1, { cr="GREEN", a=1 })
+	self:AddTimer(self.EVENT, BS["Nature Eclipse"],        15, 0,1,1, { cr="GREEN", a=1 }) -- turtle WOW
 	self:AddTimer(self.EVENT, BS["Pounce Bleed"],          18, 1,0,0, { xn=BS["Pounce"] })
 	self:AddTimer(self.EVENT, BS["Starfire Stun"],          3, 1,0,0, { xn=BS["Starfire"] })
-	self:AddTimer(self.EVENT, BS["Arcane Solstice"],       30, 0,1,1 )
-	self:AddTimer(self.EVENT, BS["Nature Solstice"],       30, 0,1,1 )
+	self:AddTimer(self.EVENT, BS["Arcane Solstice"],       30, 0,0,1 ) -- turtle WOW
+	self:AddTimer(self.EVENT, BS["Nature Solstice"],       30, 0,0,1 ) -- turtle WOW
 	self:AddTimer(self.EVENT, BS["Blood Frenzy"],          0, 0,1,1, { d={tn=BS["Blood Frenzy"], tb=6}, a=1 }) -- turtle WOW
 end
 

@@ -1,19 +1,15 @@
 ﻿## Interface: 11200
-## Author: Bhattu, fixes: laytya, dein0s
+## Author: Coconnut Created by Bhattu, fixes: laytya, dein0s
 ## Title: Chronometer |cff7fff7f -Ace2-|r
-## Notes: Chronometer - an Ace2 Timer Mod based on AceTimer for Vanilla
+## Notes: Chronometer - Timer Mod based on AceTimer for Turtle WoW
 ## Notes-ruRU: Chronometer - мод Ace2 таймера на основе AceTimer
 ## Notes-zhCN: Chronometer - 基于AceTimer的Ace2计时条插件
-## Version: 0.15
+## Version: 0.15.1
 ## DefaultState:
 ## Dependencies:
 ## OptionalDeps: Ace2, Babble-2.2, PaintChipsLib, CompostLib, CandyBar, Deformat, GratuityLib, SpellCacheLib, ParserLib, DewdropLib
 ## SavedVariables: ChronometerDB
 
-## X-ReleaseDate: $Date: 2022-08-25 $
-## X-Email: laytya@gmail.com
-## X-Category: Combat
-## X-Website: https://github.com/laytya/Chronometer-vanilla
 ## X-Embeds: Ace2, Babble-2.2, PaintChipsLib, CompostLib, CandyBar, Deformat, GratuityLib, SpellCacheLib, ParserLib, DewdropLib
 
 libs\AceLibrary\AceLibrary.lua

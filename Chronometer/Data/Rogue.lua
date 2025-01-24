@@ -22,7 +22,8 @@ function Chronometer:RogueSetup()
 	self:AddTimer(self.SPELL, BS["Riposte"],          6, 1,0,0)
 	self:AddTimer(self.SPELL, BS["Rupture"],          8, 1,0,0, { d={cp=2} })
 	self:AddTimer(self.SPELL, BS["Sap"],             25, 1,0,0, { d={rs=10} })
-	self:AddTimer(self.SPELL, BS["Slice and Dice"],   9, 0,1,1, { d={cp=3, tn=BS["Improved Slice and Dice"], tb=15, tp=1} })
+	--	self:AddTimer(self.SPELL, BS["Slice and Dice"],   9, 0,1,1, { d={cp=3, tn=BS["Improved Slice and Dice"], tb=15, tp=1} }) -- Renamed to Improved Blade Tactics
+	self:AddTimer(self.SPELL, BS["Slice and Dice"],   9, 0,1,1, { d={cp=3, tn=BS["Improved Blade Tactics"], tb=15, tp=1} })
 	self:AddTimer(self.SPELL, BS["Sprint"],          15, 0,1,1)
 	self:AddTimer(self.SPELL, BS["Vanish"],          10, 0,1,1)
 
