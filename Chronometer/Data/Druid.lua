@@ -44,7 +44,7 @@ function Chronometer:DruidSetup()
 	self:AddTimer(self.EVENT, BS["Nature Eclipse"],        15, 0,1,1, { cr="GREEN", a=1 }) -- turtle WOW
 	self:AddTimer(self.EVENT, BS["Pounce Bleed"],          18, 1,0,0, { xn=BS["Pounce"] })
 	self:AddTimer(self.EVENT, BS["Starfire Stun"],          3, 1,0,0, { xn=BS["Starfire"] })
-	self:AddTimer(self.EVENT, BS["Arcane Solstice"],       30, 0,0,1 ) -- turtle WOW
+	self:AddTimer(self.EVENT, BS["Arcane Solstice"],       30, 0,0,1, { cr="RED", a=2}) -- turtle WOW
 	self:AddTimer(self.EVENT, BS["Nature Solstice"],       30, 0,0,1 ) -- turtle WOW
 	self:AddTimer(self.EVENT, BS["Blood Frenzy"],          0, 0,1,1, { d={tn=BS["Blood Frenzy"], tb=6}, a=1 }) -- turtle WOW
 end
