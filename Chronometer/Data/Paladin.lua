@@ -39,7 +39,7 @@ function Chronometer:PaladinSetup()
 	self:AddTimer(self.SPELL, BS["Turn Undead"],            10, 1,0,0, { gr=3, d={rs=5} })
 
 	self:AddTimer(self.EVENT, BS["Forbearance"],               60, 1,0,1 )
-	self:AddTimer(self.EVENT, BS["Holy Might"],           	   20, 0,1,1, { cr="GREEN", a=1, tb=20 })
+	self:AddTimer(self.EVENT, BS["Holy Might"],           	   20, 0,1,1, { cr="GREEN", xn=BS["Holy Strike"], d={tn=BS["Holy Strike"]}, tb=20})
 	self:AddTimer(self.EVENT, BS["Judgement of Justice"],      10, 1,0,0, { cr="RED", xn=BS["Seal of Justice"], rom=true })
 	self:AddTimer(self.EVENT, BS["Judgement of Light"],        10, 1,0,0, { cr="RED", xn=BS["Seal of Light"],  d={tn=BS["Lasting Judgement"], tb=10}, rom=true })
 	self:AddTimer(self.EVENT, BS["Judgement of Wisdom"],       10, 1,0,0, { cr="RED", xn=BS["Seal of Wisdom"], d={tn=BS["Lasting Judgement"], tb=10}, rom=true })
