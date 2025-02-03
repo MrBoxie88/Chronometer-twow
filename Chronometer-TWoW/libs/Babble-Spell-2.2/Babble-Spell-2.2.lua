@@ -648,7 +648,7 @@ BabbleSpell:RegisterTranslations("enUS", function()
 		["Holy Smite"] = true,
 		["Holy Specialization"] = true,
 		["Holy Strength"] = true,
-		["Holy Strike"] = true,
+		["Holy Strike"] = true, --Twow spell
 		["Holy Wrath"] = true,
 		["Honorless Target"] = true,
 		["Hooked Net"] = true,
