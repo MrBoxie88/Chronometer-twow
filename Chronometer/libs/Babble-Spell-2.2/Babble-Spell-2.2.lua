@@ -1410,6 +1410,7 @@ BabbleSpell:RegisterTranslations("enUS", function()
 		["Vanished"] = true,
 		["Veil of Shadow"] = true,
 		["Vengeance"] = true,
+		["Vengeful Strikes"] = true,
 		["Venom Spit"] = true,
 		["Venom Sting"] = true,
 		["Venomhide Poison"] = true,
